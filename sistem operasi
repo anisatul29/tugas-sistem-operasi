@@ -1,1 +1,26 @@
-
+mkdir tugas_sistem_operasi
+cd tugas_sistem_operasi
+ls -ltrh
+touch data1.txt data2.txt
+mkdir backup
+mv data2.txt backup/
+ls -r
+ls backup
+ps -def
+su kill -9 895
+sudo kill -9 895
+touch tugas_sistem_operasi script.sh
+chmod 700 script.sh
+ls -l
+touch info_system.sh
+nano info_system.sh
+#!/bin/bash
+#Menampilkan waktu saat ini
+echo "Waktu saat ini: $(date)"
+#Menampilkan nama pengguna yang sedang login
+echo "Pengguna yang sedang login: $(whoami)
+#Menampilkan total pengguna disk di sistem
+echo "total pengguna disk di sistem:"
+df -h | grep '^/'  #Menampilkan informasi disk yang digunakan
+ping www.google.com
+ping -c 5 www.google.com
